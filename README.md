@@ -36,7 +36,7 @@ Stock Nokia ringtones, notifications and alarm tones for all.
   
 ## Compatibility
   * [![Magisk](https://img.shields.io/badge/Magisk-17%2B-00B39B.svg)](https://forum.xda-developers.com/apps/magisk/official-magisk-v7-universal-systemless-t3473445)  
-  * All root solutions (requires init.d support if not using magisk or supersu. Try [Init.d Injector](https://forum.xda-developers.com/android/software-hacking/mod-universal-init-d-injector-wip-t3692105))
+
 
 ## Credits
   * [topjohnwu for Magisk](https://github.com/topjohnwu/Magisk)
