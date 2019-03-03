@@ -1,8 +1,14 @@
-# &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nokia Audio Pack
+# &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nokia MidnightCore
 
 ## Module description
-Stock Nokia ringtones, notifications and alarm tones for all.
+Stock Nokia bootanimation, NokiaPure font, ringtones, notifications and alarm tones for all.
 
+## Bootanimation
+  * 1080×2160 AndroidOne bootanimation
+
+## Font
+  * NokiaPure
+  
 ## Ringtones
   * Nokia Tune
   * Nokia Arrival
@@ -34,6 +40,25 @@ Stock Nokia ringtones, notifications and alarm tones for all.
 ## Alarms  
   * Nokia Alarm Clock
   
+## UI
+  * Camera click
+  * Camera focus
+  * Dock
+  * Effect Tick
+  * Keypress Delete
+  * Keypress Invalid
+  * Keypress Return
+  * Keypress Spacebar
+  * Keypress Standard
+  * Lock
+  * Low Battery
+  * Trusted
+  * Undock
+  * Unlock
+  * Video Record
+  * Video Stop
+  * Wireless Charging Started
+  
 ## Compatibility
   * [![Magisk](https://img.shields.io/badge/Magisk-17%2B-00B39B.svg)](https://forum.xda-developers.com/apps/magisk/official-magisk-v7-universal-systemless-t3473445)  
 
@@ -43,5 +68,9 @@ Stock Nokia ringtones, notifications and alarm tones for all.
   * [Zackptg5 for Unity](https://github.com/Zackptg5/Unity)
   
 ## Changelog
-1. v1.0
+v1.1
+  * Added Bootanimation, NokiaPure font and UI sounds
+  * Updated Unity
+  
+v1.0
   * Initial release
