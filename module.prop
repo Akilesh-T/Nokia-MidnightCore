@@ -1,7 +1,7 @@
-id=Nokia-Audio-Pack
-name=Nokia Audio Pack (Unity)
+id=Nokia-MidnightCore
+name=Nokia Midnight Core
 version=v1.0
 versionCode=10
 author=Akilesh
-description=Stock Nokia ringtones, notifications and alarm tones for all
+description=Stock Nokia bootanimation, ringtones, notifications and alarm tones for all
 minMagisk=17000
