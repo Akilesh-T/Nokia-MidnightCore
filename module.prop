@@ -1,7 +1,7 @@
 id=Nokia-MidnightCore
 name=Nokia Midnight Core
-version=v1.1
-versionCode=11
+version=v1.2
+versionCode=12
 author=Akilesh
 description=Stock Nokia bootanimation, ringtones, notifications and alarm tones for all
-minMagisk=17000
+

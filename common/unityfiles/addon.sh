@@ -1,12 +1,17 @@
 #!/sbin/sh
+# ADDOND_VERSION=2
+
 . /tmp/backuptool.functions
+
+ARG="$1"; P="$(dirname $C)"; MODID=
+
 list_files() {
 cat <<EOF
-$(cat /tmp/addon.d/$MODID-files2)
+$(cat $P/addon.d/$MODID-files2)
 EOF
 }
 
-case "$1" in
+case "$ARG" in
   backup)
     list_files | while read FILE DUMMY; do
       backup_file $FILE
@@ -20,8 +25,8 @@ case "$1" in
     done
   ;;
   pre-backup)
-    cp -f /tmp/addon.d/$MODID-files /tmp/addon.d/$MODID-files2
-    sed -i "s/NORESTORE//g" /tmp/addon.d/$MODID-files2
+    cp -f $P/addon.d/$MODID-files $P/addon.d/$MODID-files2
+    sed -i "s/NORESTORE//g" $P/addon.d/$MODID-files2
   ;;
   post-backup)
     # Stub
@@ -30,6 +35,6 @@ case "$1" in
     # Stub
   ;;
   post-restore)
-    rm -f /tmp/addon.d/$MODID-files2
+    rm -f $P/addon.d/$MODID-files2
   ;;
 esac
