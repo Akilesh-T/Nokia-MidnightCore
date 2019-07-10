@@ -68,6 +68,9 @@ Stock Nokia bootanimation, NokiaPure font, ringtones, notifications and alarm to
   * [Zackptg5 for Unity](https://github.com/Zackptg5/Unity)
   
 ## Changelog
+v1.2
+  * Update Unity to the new module template.
+
 v1.1
   * Added Bootanimation, NokiaPure font and UI sounds
   * Updated Unity
